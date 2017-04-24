@@ -1,5 +1,5 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="/custom.js"></script>
+<script type="text/javascript" src="{{ url('/') }}/custom.js"></script>
 <script type="text/javascript" src="{{ asset('vendor/laravel-spf/js/laravel-spf.js')}}"></script>
 <script>
 $(document).on("spfclick", function() {
