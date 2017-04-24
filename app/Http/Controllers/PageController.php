@@ -11,8 +11,8 @@ class PageController extends Controller
     public function showFirstPage(Request $request)
     {
       if($request->input('spf') == 'navigate')
-        return view('pages.page1.spf_index');
-      return view('pages.page1.full');
+        return view('pages.page1.spf_json');
+      return view('pages.page1.index');
     }
 
     public function showSecondPage(Request $request)

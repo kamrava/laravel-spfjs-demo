@@ -1,8 +1,8 @@
 {
-  "title": "{!! $partials->title !!}",
-  "head": "{!! $partials->head !!}",
+  "title": "{!! $sections->title !!}",
+  "head": "{!! $sections->head !!}",
   "body": {
-    "main-content": "{!! $partials->body !!}"
+    "main-content": "{!! $sections->body !!}"
     },
-  "foot": "{!! $partials->foot !!}"
+  "foot": "{!! $sections->foot !!}"
 }

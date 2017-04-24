@@ -1,13 +1,13 @@
 @extends('layouts.main')
 @section('title')
-  @include('pages.page2.partials._title')
+  @include('pages.page2.sections._title')
 @endsection
 @section('head')
-  @include('pages.page2.partials._head')
+  @include('pages.page2.sections._head')
 @endsection
 @section('content')
-  @include('pages.page2.partials._body')
+  @include('pages.page2.sections._body')
 @endsection
 @section('scripts')
-  @include('pages.page2.partials._foot')
+  @include('pages.page2.sections._foot')
 @endsection

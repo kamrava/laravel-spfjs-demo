@@ -1,4 +1,4 @@
 @extends('layouts.main')
 @section('content')
-  @include('pages.page1.full')
+  @include('pages.page1.index')
 @endsection
