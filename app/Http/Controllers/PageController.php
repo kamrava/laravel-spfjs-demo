@@ -10,8 +10,8 @@ class PageController extends Controller
 {
     public function showFirstPage(Request $request)
     {
-      if($request->input('spf') == 'navigate')
-        return view('pages.page1.spf_json');
+        if($request->input('spf') == 'navigate')
+          return SectionView::from('pages.page1')->render();
       return view('pages.page1.index');
     }
 
