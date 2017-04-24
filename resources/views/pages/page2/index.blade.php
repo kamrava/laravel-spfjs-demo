@@ -1,0 +1,13 @@
+@extends('layouts.main')
+@section('title')
+  @include('pages.page2.partials._title')
+@endsection
+@section('head')
+  @include('pages.page2.partials._head')
+@endsection
+@section('content')
+  @include('pages.page2.partials._body')
+@endsection
+@section('scripts')
+  @include('pages.page2.partials._foot')
+@endsection
